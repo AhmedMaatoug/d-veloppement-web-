@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النظام الشمسي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; 
+            color: #fff;
+            direction: rtl;
+            text-align: right;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        h1, h2 {
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8); 
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.1); 
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        article:hover {
+            transform: scale(1.05); 
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 1.4em;
+            line-height: 1.8;
+        }
+
+        
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 15px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        @keyframes stars {
+            0% {background-position: 0 0;}
+            100% {background-position: -10000px 10000px;}
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/stardust.png');
+            z-index: -1;
+            animation: stars 100s linear infinite;
+            opacity: 0.2;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #FFD700;
+        }
+
+        .programmer {
+            font-size: 1.1em;
+            color: #FFD700;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>النظام الشمسي</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>ما هو النظام الشمسي؟</h2>
+            <p>النظام الشمسي هو مجموعة من الكواكب والأقمار والأجرام السماوية الأخرى التي تدور حول نجم مركزي واحد، وهو الشمس. يتكون من الشمس وثمانية كواكب رئيسية، بالإضافة إلى الكواكب القزمة، والمذنبات، والكويكبات. يتميز هذا النظام بترابط قوى الجاذبية التي تحافظ على دوران الأجرام حول الشمس.</p>
+            
+            <img src="img/Solar system.jpeg">
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>الشمس</h2>
+            <p>الشمس هي النجم الذي يقع في مركز النظام الشمسي. إنها كرة ضخمة من الغاز الساخن تتكون أساسًا من الهيدروجين والهيليوم، وتقوم بعملية الاندماج النووي التي تحول الهيدروجين إلى هيليوم، مما يطلق كميات هائلة من الطاقة. تشكل الشمس أكثر من 99.8% من كتلة النظام الشمسي، وتعد مصدر الطاقة الرئيسي للحياة على الأرض.</p>
+            
+            <img src="img/sun.jpeg" >
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2> الأرض</h2>
+            <p>الأرض هي ثالث كوكب من الشمس وتعتبر الكوكب الوحيد المعروف بوجود حياة. تتميز الأرض بجو يحتوي على الأكسجين والماء السائل، وهما عنصران حيويان لدعم الحياة. يحتوي سطح الأرض على تضاريس متنوعة مثل الجبال، السهول، المحيطات، والأنهار، مما يجعلها كوكبًا غنيًا بيولوجيًا وجيولوجيًا.</p>
+            
+            <img src="img/earth.jpeg" >
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>المريخ</h2>
+            <p>المريخ هو رابع كوكب من الشمس وغالبًا ما يطلق عليه "الكوكب الأحمر" بسبب مظهره الصدئ. يتميز المريخ بوجود براكين ضخمة، ووديان عميقة، وآثار قديمة لوجود مياه. يثير المريخ اهتمام العلماء كوجهة مستقبلية للاستكشاف البشري بسبب احتمالية وجود حياة عليه في الماضي.</p>
+            
+            <img src="img/MARS.jpeg">
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>الكواكب الخارجية</h2>
+            <p>الكواكب الخارجية هي الكواكب البعيدة عن الشمس وتشمل المشتري، زحل، أورانوس، ونبتون. هذه الكواكب ضخمة جدًا وتتكون في الغالب من الغازات. المشتري هو أكبر كوكب في النظام الشمسي وله أكثر من 79 قمرًا. زحل معروف بحلقاته الجميلة التي تتكون من جليد وصخور.</p>
+            
+            <img src="img/Exoplanets.webp">
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>الكواكب الداخلية</h2>
+            <p>الكواكب الداخلية، المعروفة أيضًا بالكواكب الأرضية، هي الكواكب الأقرب إلى الشمس. تتميز بأنها صخرية وسطحها صلب. هذه الكواكب هي: عطارد، الزهرة، الأرض، والمريخ. كل كوكب له خصائصه الفريدة، مثل الغلاف الجوي السميك للزهرة أو وجود الماء السائل على سطح الأرض.</p>
+            
+            <img src="img/Inner planets.jpeg">
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>القمر</h2>
+            <p>القمر هو التابع الطبيعي الوحيد للأرض. يبلغ قطره حوالي 3,474 كيلومترًا ويعتبر خامس أكبر قمر في النظام الشمسي. القمر له تأثير كبير على الحياة على الأرض، خاصةً في المد والجزر. يُعتقد أن القمر تشكل بعد اصطدام جسم بحجم المريخ بالأرض منذ حوالي 4.5 مليار سنة.</p>
+            
+            <img src="img/moon.jpeg">
+        </article>
+    </section>
+
+    
+    <footer>
+        <p class="programmer">تمت البرمجة بواسطة <strong>AHMED MAATOUG TI14</strong></p>
+    </footer>
+
+</body>
+</html>

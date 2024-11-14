@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استبيان حول موقعنا</title>
+</head>
+<body style="text-align: center; font-family: Arial, sans-serif;">
+
+    <h2 style="color: #2E8B57;">رأيك حول موقعنا</h2>
+    <form action="#" method="post" style="display: inline-block; text-align: right; background-color: #f4f4f4; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+
+        
+        <label for="prenom" style="font-weight: bold;">الاسم:</label>
+        <input type="text" id="prenom" name="prenom" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br><br>
+
+        
+        <label for="nom" style="font-weight: bold;">اللقب:</label>
+        <input type="text" id="nom" name="nom" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br><br>
+
+        
+        <label for="date_naissance" style="font-weight: bold;">تاريخ الميلاد:</label>
+        <input type="date" id="date_naissance" name="date_naissance" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br><br>
+
+        
+        <label style="font-weight: bold;">الجنس:</label><br>
+        <input type="radio" id="homme" name="genre" value="ذكر" required>
+        <label for="homme">ذكر</label><br>
+        <input type="radio" id="femme" name="genre" value="أنثى" required>
+        <label for="femme">أنثى</label><br><br>
+
+        
+        <label for="email" style="font-weight: bold;">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br><br>
+
+        
+        <label for="gouvernorat" style="font-weight: bold;">الولاية:</label>
+        <select id="gouvernorat" name="gouvernorat" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;">
+            <option value="">اختر الولاية</option>
+            <option value="تونس">تونس</option>
+            <option value="أريانة">أريانة</option>
+            <option value="بن عروس">بن عروس</option>
+            <option value="منوبة">منوبة</option>
+            <option value="باجة">باجة</option>
+            <option value="جندوبة">جندوبة</option>
+            <option value="الكاف">الكاف</option>
+            <option value="سليانة">سليانة</option>
+            <option value="زغوان">زغوان</option>
+            <option value="نابل">نابل</option>
+            <option value="سوسة">سوسة</option>
+            <option value="المنستير">المنستير</option>
+            <option value="المهدية">المهدية</option>
+            <option value="صفاقس">صفاقس</option>
+            <option value="القيروان">القيروان</option>
+            <option value="سيدي بوزيد">سيدي بوزيد</option>
+            <option value="قفصة">قفصة</option>
+            <option value="القصرين">القصرين</option>
+            <option value="قابس">قابس</option>
+            <option value="مدنين">مدنين</option>
+            <option value="تطاوين">تطاوين</option>
+            <option value="قبلي">قبلي</option>
+            <option value="توزر">توزر</option>
+            
+        </select><br><br>
+
+        
+        <label for="avis" style="font-weight: bold;">رأيك:</label><br>
+        <textarea id="avis" name="avis" rows="4" cols="50" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"></textarea><br><br>
+        
+        <label for="note" style="font-weight: bold;">التقييم (من 1 إلى 5):</label>
+        <input type="number" id="note" name="note" min="1" max="5" required style="padding: 5px; margin: 10px; border-radius: 4px; border: 1px solid #ccc;"><br><br>
+
+
+        
+        <input type="submit" value="إرسال" style="background-color: #2E8B57; color: white; padding: 10px 20px; border-radius: 4px; border: none; cursor: pointer;">
+        
+    </form>
+
+</body>
+</html>
